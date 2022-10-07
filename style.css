@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+body {
+    background: linear-gradient(90deg,
+    rgb(97, 163, 207)0%,
+    rgb(70, 159, 219)50%,
+    rgb(18, 141, 223)100%
+    );
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper__grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.grid{
+    width: 456px;
+    height: 456px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+    border: 1px solid white;
+}
+
+.mole{
+    background: url(./mole.jpg);
+    background-size: contain;
+}
+
+.wrapper__time{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.wrapper__time h2,
+.wrapper__score h2{
+    color: white;
+    font-size: 1.2em;
+}
+
+.wrapper__score{
+    text-align: center;
+}
+
+
+.wrapper__text{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.wrapper__btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+
+button{
+    padding: 1em;
+    width: 8em;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    color: white;
+    background:rgb(18, 141, 223)100%;
+    cursor: pointer;
+}
+
+button:active{
+    background: white;
+    color: rgb(18, 141, 223);
+}
